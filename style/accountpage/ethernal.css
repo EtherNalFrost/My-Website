@@ -1,0 +1,250 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
+ 
+body {
+	background: url(https://r4.wallpaperflare.com/wallpaper/142/751/831/landscape-anime-digital-art-fantasy-art-wallpaper-9b468c3dc3116f4905f43bc9cddc0cf0.jpg) center center fixed;
+	background-size: cover;
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+ 
+hr {
+	border:0;
+	background:#dedede;
+	height:1px;
+}		
+ 
+header{
+	text-align: center;
+	color:#00FFFF;
+}
+ 
+header .judul{
+	font-size: 20pt;
+}
+ 
+header .deskripsi{
+	font-size: 11pt;
+    font-style: italic;
+}
+ 
+.wrap {
+	width: 950px;
+	margin:25px auto;
+}
+
+.menu-malasngoding > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	color:#fff;
+	float:left;
+	padding:0;
+	width: 650px;
+	margin:0 0 0;
+	background: #1abc9c;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+}
+
+.menu {
+	float:left;
+}
+
+.menu-malasngoding li > a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.menu-malasngoding li a:hover{
+	background-color: #2525ff;
+}
+
+li.dropdown {
+	display: inline-block;
+}
+
+.dropdown {
+	float: right;
+}
+
+.dropdown:hover .isi-dropdown {
+	display: block;
+}
+
+.isi-dropdown a:hover {
+	color: #fff !important;
+}
+
+.isi-dropdown {
+	direction: ltr;
+	text-align: left;
+	position: absolute;
+	display: none;	
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	background-color: #f9f9f9;
+}
+
+.isi-dropdown a {
+	color: #3c3c3c !important;
+}
+
+.isi-dropdown a:hover {
+	color: #232323 !important;
+	background: #f3f3f3 !important;
+}
+
+.dropdown {
+	display: inline-block;
+}
+
+.isi-dropdown {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 133px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.isi-dropdown a {
+	color: black;
+	text-decoration: none;
+	display: block;
+}
+.isi-dropdown a:hover {background-color: #f1f1f1}
+.dropdown:hover .isi-dropdown {
+	display: block;
+}
+
+.sidebar {
+	float:right;
+	width:275px;
+}
+ 
+.sidebar .widget {
+	padding:25px;
+	margin:0 0 25px;
+	background:#fff;
+	border-bottom: 2px solid #fff;
+	transition: all 0.5s ease;
+}
+ 
+.sidebar .widget:hover {
+	border-bottom: 2px solid #3498db;
+}
+ 
+.sidebar .widget h2 {
+	padding:0;
+	margin:0 0 15px;
+	color:#ff0000;
+	font-size: 18px;
+	font-weight:800;
+	text-transform: uppercase;
+}
+ 
+.sidebar .widget p {
+	font-size: 14px;
+}
+ 
+.sidebar .widget p:last-child {
+	margin:0;
+}
+ 
+.accountinfo {
+	float:left;
+}
+ 
+.conteudo {
+	width:600px;
+	padding:25px;
+	margin:25px auto;
+	background: #fff;
+	border:1px solid #dedede;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+}
+
+.pfp {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+  	background-image: url(https://i.pinimg.com/736x/10/91/94/1091948c6b80b65b9eef8c163f0ae42a.jpg);
+  	background-size: cover;
+}
+
+.level {
+	font: red;
+}
+
+@media screen and (max-width: 960px) {
+ 
+	.header {
+		position:inherit;
+	}
+ 
+	.wrap {
+		width: 90%;
+		margin:25px auto;
+	}
+	.sidebar {
+		width:100%;
+		margin:25px 0 0;
+		float:right;
+	}
+ 
+	.sidebar .widget {
+		padding:5%;
+	}
+ 
+	nav.menu ul {
+		width: 100%;
+	}
+ 
+	nav.menu ul {
+		float:inherit;
+	}
+ 
+	nav.menu ul li {
+		float:inherit;
+		margin:0;
+	}
+ 
+	nav.menu ul a {
+		padding:15px;
+		font-size: 16px;
+		border-top:1px solid #1abf9f;
+		border-bottom:1px solid #16a085;
+	}
+ 
+	.blog {
+		width:90%;
+	}
+ 
+}
+ 
+@media screen and (max-width: 460px) {
+ 
+	nav.menu ul a {
+		padding:15px;
+		font-size: 14px;
+	}
+ 
+	.sidebar {
+		display:none
+	}
+	.post-info {
+		display:none;
+	}
+ 
+	.conteudo {
+		margin:25px auto;
+	}
+ 		
+}
