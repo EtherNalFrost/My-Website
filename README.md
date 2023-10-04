@@ -4,4 +4,4 @@ Cara downloadnya adalah pencet tombol Code habis itu Download Zip
 Habistu tarok di htdocs xampp kalian :)
 
 Info!
-file user-level.sql adalah file databse mysql kalau mau di pake bisa di import aja di http://localhost/phpmyadmin / http://192.168.X.X/phpmyadmin
+file user-level.sql adalah file databse mysql kalau mau di pake bisa di import aja di http://localhost/phpmyadmin / http://192.168.X.X/phpmyadmin (untuk cara ini ipnya bisa liat di cmd lewat command ipconfig
