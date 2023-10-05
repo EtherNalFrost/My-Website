@@ -18,8 +18,9 @@ Jika anda tau cara downloadnya skip aja ini
 
 4. Selesai
 
-# Note
+## Note
 
 Jangan lupa ganti detail database kalian di file .php 
 
+Contoh:
 ![alt text](https://i.imgur.com/41xTm9Q.png)
