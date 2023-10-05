@@ -1,10 +1,1 @@
-Repository ini adalah project ITclub SMA FK 2023
-
-Cara downloadnya adalah pencet tombol Code habis itu Download Zip
-Habistu tarok di htdocs xampp kalian :)
-
-Websitenya bisa diliat lewat link yang ada di bagian kanan
-
-Info!
-file user-level.sql adalah file databse mysql kalau mau di pake bisa di import aja di http://localhost/phpmyadmin / http://192.168.X.X/phpmyadmin (untuk cara ini ipnya bisa liat di cmd lewat command ipconfig
 
