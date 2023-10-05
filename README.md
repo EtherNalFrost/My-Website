@@ -8,6 +8,6 @@ Jika anda tau cara downloadnya skip aja ini
 
 1. Klik tombol yang tertulis CODE
 
-![alt text]([https://imgur.com/ByM427A](https://i.imgur.com/ByM427A.png)https://i.imgur.com/ByM427A.png)
+![alt text](https://i.imgur.com/ByM427A.png)
 
 2. 
